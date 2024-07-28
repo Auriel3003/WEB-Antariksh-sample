@@ -1,0 +1,282 @@
+
+
+body {
+    background: url('https://c4.wallpaperflare.com/wallpaper/803/53/244/anime-space-tea-wallpaper-preview.jpg') no-repeat center center fixed ;
+    background-size: cover;
+
+}
+
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the navbar content */
+}
+
+nav ul {
+    display: flex; /* Use flexbox for navigation */
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between navigation items */
+}
+
+nav ul li a {
+    background: linear-gradient(135deg, #005F73, #0A9396); /* Gradient background */
+    color: #fff; /* White text */
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for button effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s ease; /* Transition effect */
+}
+
+nav ul li a:hover {
+    background: linear-gradient(135deg, #0A9396, #005F73); /* Gradient on hover */
+}
+
+
+
+
+.title {
+    font-size: 3em; /* XXL */
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 1.5em; /* Adjust subtitle size */
+    margin: 5px 0;
+}
+
+
+
+
+#main-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(4px); /* Adjusted blur intensity */
+    z-index: -1;
+}
+
+.content-section {
+    margin: 20px 40px;
+    padding: 20px;
+    background: rgba(0, 0, 51, 0.7); /* Dark blue background color */
+    border-radius: 7px;
+    position: relative;
+    z-index: 20;
+    color: #fff; /* White text color */
+}
+.content-section h2 {
+    font-size: 4em; /* Adjust size as needed */
+    margin: 5px 0; /* Space around the subheading */
+    text-align: center
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between; /* Adjusts space between elements */
+    align-items: center; /* Aligns items vertically in the center */
+    margin-top: 20px; /* Optional: Adds space above the content */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between; /* Adjusts space between elements */
+    align-items: center; /* Aligns items vertically in the center */
+    margin-top: 20px; /* Optional: Adds space above the content */
+}
+
+.text-part {
+    flex: 1; /* Allows the text part to grow */
+    margin-right: 20px; /* Space between text and image */
+}
+
+.image-part img {
+    margin: 20px 20px;
+    max-width: 100%; /* Ensures image is responsive */
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 7px; /* Optional: Rounds image corners */
+
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Space between the courses */
+}
+
+.course {
+    width: 30%; /* Adjust width for two courses per row */
+    margin-bottom: 20px; /* Space between course sections */
+     background: linear-gradient(135deg, rgba(0, 95, 115, 0.5), rgba(10, 147, 150, 0.5));
+    color: #ffffff; /* White text */
+    border-radius: 7px; /* Optional rounded corners */
+    padding: 15px; /* Optional padding */
+}
+.course:hover {
+    background: linear-gradient(135deg, #0A9396, #005F73);
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.7); /* Light blue glow */
+    transform: scale(1.025);
+}
+
+h3 {
+    font-size: 2em; /* Adjust size as needed */
+    margin: 10px 0; /* Space around the course title */
+    text-align: center
+}
+
+#apod-content {
+    display: flex;
+    align-items: center;
+}
+
+#apod-content .image-part {
+    margin-right: 20px;
+}
+
+#apod-image {
+    width: 720px;
+    height: 720px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+#apod-content .text-part {
+    flex: 1;
+}
+
+#apod-title {
+    margin: 0.5;
+    font-size: 1.5em;
+}
+
+#apod-description {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+
+
+
+.course-image {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+.course-image img {
+    max-width: 70%; /* Adjust to set a medium size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Rounds image corners */
+    margin-top: 10px; /* Space above the image */
+}
+
+
+.contact-buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+
+.top-row, .bottom-row {
+    display: flex; /* Use flexbox for rows */
+    justify-content: center; /* Center align items */
+}
+
+.contact-button {
+    margin: 10px 10px;
+    background: linear-gradient(135deg, #6A0572, #A77BCA); /* Purple tones */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.contact-button:hover {
+    background: linear-gradient(135deg, #264653, #2A9D8F);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* Aqua glow */
+    transform: scale(1.05);
+}
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+#tlc {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(0, 0, 51, 0.7); /* Dark blue background color */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    color: #fff; /* White text color */
+    position: relative;
+    z-index: 1;
+}
+
+#tlc h1 {
+    font-size: 8em; /* Adjust size as needed */
+    margin: 10px 0; /* Space around the heading */
+}
+
+#tlc h2 {
+    font-size: 4em; /* Adjust size as needed */
+    margin: 5px 0; /* Space around the subheading */
+}
+
+p {
+    margin: 20px 100px;
+    font-size: 1.5em; /* Adjust the size as needed */
+    line-height: 1.2; /* Optional: Adjust line height for better readability */
+}
