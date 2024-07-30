@@ -1,12 +1,7 @@
-
-
 body {
-    background: url('https://static.vecteezy.com/system/resources/previews/001/230/968/non_2x/starry-night-sky-free-photo.jpeg') no-repeat center center fixed ;
+    background: url('https://static.vecteezy.com/system/resources/previews/001/230/968/non_2x/starry-night-sky-free-photo.jpeg') no-repeat center center fixed;
     background-size: cover;
-
 }
-
-
 
 header {
     background: #333;
@@ -46,9 +41,6 @@ nav ul li a:hover {
     background: linear-gradient(135deg, #0A9396, #005F73); /* Gradient on hover */
 }
 
-
-
-
 .title {
     font-size: 3em; /* XXL */
     margin: 10px 0;
@@ -58,9 +50,6 @@ nav ul li a:hover {
     font-size: 1.5em; /* Adjust subtitle size */
     margin: 5px 0;
 }
-
-
-
 
 #main-content::before {
     content: "";
@@ -82,20 +71,14 @@ nav ul li a:hover {
     z-index: 20;
     color: #fff; /* White text color */
 }
+
 .content-section h2 {
     font-size: 4em; /* Adjust size as needed */
     margin: 5px 0; /* Space around the subheading */
-    text-align: center
+    text-align: center;
 }
 
-.home-content {
-    display: flex;
-    justify-content: space-between; /* Adjusts space between elements */
-    align-items: center; /* Aligns items vertically in the center */
-    margin-top: 20px; /* Optional: Adds space above the content */
-}
-
-.about-content {
+.home-content, .about-content {
     display: flex;
     justify-content: space-between; /* Adjusts space between elements */
     align-items: center; /* Aligns items vertically in the center */
@@ -112,7 +95,6 @@ nav ul li a:hover {
     max-width: 100%; /* Ensures image is responsive */
     height: auto; /* Keeps aspect ratio */
     border-radius: 7px; /* Optional: Rounds image corners */
-
 }
 
 .courses-container {
@@ -124,11 +106,12 @@ nav ul li a:hover {
 .course {
     width: 30%; /* Adjust width for two courses per row */
     margin-bottom: 20px; /* Space between course sections */
-     background: linear-gradient(135deg, rgba(0, 95, 115, 0.5), rgba(10, 147, 150, 0.5));
+    background: linear-gradient(135deg, rgba(0, 95, 115, 0.5), rgba(10, 147, 150, 0.5));
     color: #ffffff; /* White text */
     border-radius: 7px; /* Optional rounded corners */
     padding: 15px; /* Optional padding */
 }
+
 .course:hover {
     background: linear-gradient(135deg, #0A9396, #005F73);
     box-shadow: 0 0 15px rgba(0, 191, 255, 0.7); /* Light blue glow */
@@ -138,7 +121,7 @@ nav ul li a:hover {
 h3 {
     font-size: 2em; /* Adjust size as needed */
     margin: 10px 0; /* Space around the course title */
-    text-align: center
+    text-align: center;
 }
 
 #apod-content {
@@ -171,9 +154,6 @@ h3 {
     font-size: 1em;
 }
 
-
-
-
 .course-image {
     display: flex;
     justify-content: center; /* Center the image horizontally */
@@ -185,7 +165,6 @@ h3 {
     border-radius: 5px; /* Optional: Rounds image corners */
     margin-top: 10px; /* Space above the image */
 }
-
 
 .contact-buttons {
     display: flex;
@@ -215,16 +194,6 @@ h3 {
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.7); /* Aqua glow */
     transform: scale(1.05);
 }
-
-
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-
-
 
 footer {
     text-align: center;
